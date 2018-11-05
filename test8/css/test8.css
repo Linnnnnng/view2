@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#head {
+    width: 1903px;
+    height: 40px;
+    background-color: #333333;
+}
+#head_left ul{
+    margin-left: 330px;
+}
+#head_left li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 10px;
+    color: #e3e3e3;
+    line-height: 40px;
+    cursor: pointer;
+}
+#head_left li:hover{
+    color: white;
+}
+
+#head_right ul{
+    margin-right: 330px;
+}
+#head_right li{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 10px;
+    color: #e3e3e3;
+    line-height: 40px;
+    cursor: pointer;
+}
+#head_right li:hover{
+    color: white;
+}
+
+
+#main{
+    width: 1903px;
+    height: 2000px;
+}
+#main_top{
+    width: 1903px;
+    height: 100px;
+    background-color: white;
+}
+#mi{
+    width: 54px;
+    height: 54px;
+    position: absolute;top: 65px;left: 350px;
+}
+#wen ul {
+    list-style: none;
+    margin-left: 550px;
+
+}
+#wen li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    font-size: 17px;
+    line-height: 100px;
+    cursor: pointer;
+}
+#wen li:hover{
+    color: orange;
+}
+#yin{
+    position: absolute;
+    z-index: 2;
+    width: 1903px;
+    height: 200px;
+}
+#yin ul {
+    list-style: none;
+}
+.nei{
+    width:1903px;
+    height: 200px;
+    display: none;
+}
+#yin2{
+    position: absolute;left: 250px;
+    z-index: 3;
+    width: 953px;
+    height: 500px;
+    overflow: hidden;
+    display: none;
+}
+#yin2 li{
+    list-style: none;
+}
+.nei2{
+    width: 953px;
+    height: 500px;
+}
+
+
+
+#box{
+    width: 1203px;
+    height: 700px;
+    position: absolute;left: 350px;top: 140px;
+    overflow: hidden;
+}
+#img{
+    position: absolute;
+    width: 12030px;
+    height: 500px;
+}
+#img img{
+    float: left;
+}
+#yuan {
+    position: absolute;right: 35px;bottom: 230px;
+    z-index: 3;
+}
+#yuan span{
+    float: left;
+    margin-left: 10px;
+    cursor:pointer;
+    width: 8px;height: 8px;
+    background-color: black;
+    border: 2px solid #777777;
+    opacity: 0.5;
+    border-radius:50% ;
+}
+#yuan span.yan{
+    background-color: #cc6666;
+}
+#box_left{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 500px;
+    background-color: #777777;
+    background-color: rgba(0,0,0,0.7);
+}
+#box_left ul{
+    position: absolute;top: 25px;
+}
+#box_left li{
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    width: 210px;
+    height: 45px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+#box_left li:hover{
+    background-color:#cc6666;
+}
+#bottom_left{
+    position: absolute;left: 250px;top: 225px;
+    text-decoration:none;
+    height: 70px;
+    width: 45px;
+    text-align: center;
+    background-color: #e3e3e3;
+    background-color: rgba(0,0,0,0) ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#bottom_left:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+#bottom_left a{
+    text-decoration: none;
+    line-height: 70px;
+    color: white;
+    font-size: 20px;
+}
+#bottom_right{
+    position: absolute;right: 0;top: 225px;
+    text-decoration:none;
+    text-align: center;
+    height: 70px;
+    width: 45px;
+    background-color: #e3e3e3;
+    background-color: rgba(0,0,0,0) ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#bottom_right:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+#bottom_right a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#box2{
+    width: 1203px;
+    height: 200px;
+    position: absolute;top: 500px;
+}
+
+#x{
+    height: 150px;
+    width: 258px;
+    background-color: burlywood;
+}
+#ximg ul{
+    position: absolute;top: 25px;left:-15px;
+}
+#ximg li {
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+}
+
+#main_box{
+    position: absolute;right: 0;bottom: 100px;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #999999;
+    line-height: 80px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    display: none;
+}
+#main_box:hover{
+    color: #cc6666;
+}
+
+
+
+
+
+#foot{
+    width: 1903px;
+    height: 500px;
+    background-color: white;
+}
